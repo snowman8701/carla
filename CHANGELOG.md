@@ -6,6 +6,8 @@
   * Fixed colors of lane markings when importing a map, they were reversed (white and yellow)
   * Fixed missing include directive in file **WheelPhysicsControl.h**
   * Fixed gravity measurement bug from IMU sensor
+  * Fixed point cloud of LiDAR. Now the points are given correctly in the sensor's coordinate system.
+  * Exposed matrix form of transformation to the client and Python API.
   * Added PythonAPI command to set multiple car light states at once
   * Added PythonAPI `carla.world.get_vehicles_light_states` to get all the car light states at once
   * OpenDRIVE ingestion bugfixes
